@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox website</title>
+</head>
+<body> 
+  <div class="main-container">
+    <div class="second-container">
+      <div class="menu">
+        <div id="sc-item-1">Hello, today is tuesday, 23rd of May</div>
+      </div>
+      <div class="links">
+        <div id="sc-item-2">Sign up</div>
+        <div id="sc-item-3">Log in</div>
+      </div>
+    </div>
+  </div>
+  <div class="navigation-container">
+    <div class="home">Home &#9660</div>
+    <div class="contact">Contact &#9660</div>
+    <div class="about">About us &#9660</div>
+  </div>
+  <div class="true-container">
+    <div class="numbers">
+      <div class="one">One</div>
+      <div class="two">Two</div>
+      <div class="three">Three</div>
+      <div id="numbers-below">
+       <div class="four">Four</div>
+       <div class="five">Five</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
