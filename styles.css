@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .main-container {
+    border: 2px solid #a1672a;
+    background-color: #a1672a;
+    height: 65px;
+  }
+  
+  .second-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+  }
+  
+  .links {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 43px;
+  }
+  
+  .navigation-container {
+    background-color: #DEB887;
+    border: 1px solid #DEB887;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .true-container {
+    background-color: white;
+    border: 1px solid black;
+    height: 300px;
+  }
+  
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    height: 288px;
+    justify-content: center;
+   
+  }
+  
+  .one {
+    background-color: #784f24;
+    border: 1px solid #784f24;
+    color: white;
+    height: 100px;
+    width: 175px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .two {
+    background-color: #c98a47;
+    border: 1px solid #c98a47;
+    height: 100px;
+    width: 175px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .three {
+    background-color: #8a663f;
+    border: 1px solid #8a663f;
+    color: white;
+    height: 100px;
+    width: 175px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #numbers-below {
+    display: flex;
+    margin-top: -50;
+  }
+  
+  .four {
+    background-color: #ba8d5d;
+    border: 1px solid #ba8d5d;
+    height: 100px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .five {
+    background-color: #5c3812;
+    border: 1px solid #5c3812;
+    color: white;
+    height: 100px;
+    width: 175px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
